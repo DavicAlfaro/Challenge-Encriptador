@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Encriptador</title>
+</head>
+<body class="body">
+  <header class="header">
+    <h1 class="logo">Desencriptador</h1>
+  </header>
+  <main>
+    <section class="section1">
+      <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+      <div>
+        <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+      </div>
+      <div class="botones">
+        <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+        <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="area-mensaje">
+        <textarea class="mensaje" cols="30" rows="10" id="mensaje"></textarea>
+      </div>
+      <div>
+        <h6 class="informacion">Aqui puedes copiar tu mensaje y volver a procesarlo</h6>
+      </div>
+      <div>
+        <button class="boton-copiar" onclick="copiar()">Copiar</button>
+        <button class="boton-reiniciar" onclick="borrar()">Borrar</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Desarrollado por Davic</p>
+  </footer>
+<script src="/script.js"></script>
+</body>
+<html>
