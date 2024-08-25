@@ -3,7 +3,7 @@
 
 Este es un encriptador de texto, con variantes predefinidas por Alura, responsivo y con funciones adicionales a las establecidas en el challenge.
 
-## :Funcionalidades del proyecto
+## Funcionalidades del proyecto
 
 - `Funcionalidad Boton encriptar/desencriptar`: Encripta el mensaje teniendo en cuenta las variables:
 La letra "e" es convertida para "enter"
@@ -14,12 +14,12 @@ La letra "u" es convertida para "ufat"
 - `Funcionalidad Boton copiar`: Copia el texto Encriptado/Desencriptado en el portapapeles informandote con un alert
 - `Funcionalidad Boton corrar`: Borra de manera segura el mensaje encriptado y desencriptado del navegador
 
-## :Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - JavaScript
 - HTML
 - CSS
 
-## :Derechos de autor
+## Derechos de autor
 
 - Imagen hacker: Freepik.es
